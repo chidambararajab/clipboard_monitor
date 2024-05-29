@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:clipboard_monitor/database/database.dart';
 import 'package:clipboard_monitor/models/clipboard_item.dart';
-import 'package:clipboard_monitor/database/database.dart';
 import 'package:clipboard_monitor/services/clipboard_monitor.dart';
 
 void main() {

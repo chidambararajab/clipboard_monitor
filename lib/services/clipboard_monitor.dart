@@ -26,8 +26,7 @@ class ClipboardMonitor {
   }
 
   Future<void> _saveClipboardText(String text) async {
-    final newItem =
-        ClipboardItem(id: DateTime.now().millisecondsSinceEpoch, text: text);
+    final newItem = ClipboardItem(id: DateTime.now().day, text: text);
     await DatabaseService().insertClipboardItem(newItem);
   }
 }
